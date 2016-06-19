@@ -1,0 +1,117 @@
+
+.circle {
+  padding-top: 13px;
+  margin-bottom: 43px;
+}
+.circle > div {
+  display: block !important;
+  border-radius: 500px;
+  color: #ffffff;
+  background-color: #4082a5;
+  margin: 0 auto;
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+.circle > div:before {
+  font: 300 18px/24px 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 60px;
+  position: absolute;
+  content: '%';
+  right: 50%;
+  margin-right: -73px;
+  top: 50%;
+  margin-top: -30px;
+   
+}
+.circle .knob {
+  margin-right: 20px !important;
+  color: #ffffff !important;
+  font-size: 62px !important;
+  font-weight: bold !important;
+  width: 77px !important;
+  outline: medium;
+}
+/****Gallery****/
+
+
+/****Text styles****/
+.text-1 {
+  font: 300 36px/40px 'Open Sans Condensed', sans-serif;
+  color: #287e7d;
+  margin-bottom: 16px;
+}
+.text-2 {
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 36px;
+}
+.text-3 {
+  z-index: 20;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.text-3 a{
+  z-index: 20;
+  color: #fff;
+}
+.color1 {
+  color: #287e7d;
+}
+.color1 a:hover,
+a.color1:hover {
+  color: #343a5e;
+}
+.color2 {
+  color: #343a5e;
+}
+@media(max-width: 640px){
+  canvas{
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .circle{
+    margin-bottom: 20px;
+  }
+  
+  .circle > div {
+  display: block !important;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color:rgba(0,0,0,0);
+  margin: 0 auto;
+  position: relative;
+  width: 100px !important;
+  height: 100px !important;
+  text-align: center !important;
+}
+.circle > div:before {
+  display: block;
+  margin: auto;
+  position: absolute;
+  left: 33px;
+  top: 21px;
+  right: 0;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 25px;
+  content: '%';
+}
+.circle .knob {
+  display: block !important;
+  margin: auto !important;
+  left: -20px !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  color: #ffffff !important;
+  font-size: 25px  !important;
+}
+.text-3{
+  font-size: 20px;
+}
+}

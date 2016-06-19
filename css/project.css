@@ -1,0 +1,94 @@
+/*--portfolio--*/
+.gallery-section{
+background: url(../images/port-back.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	min-height:1404px;
+    padding: 140px 0 0px 0;
+}
+#portfolio p {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.8em;
+  margin: 25px 0 0 0;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 300;
+}
+.gallery-section h3{
+   margin: 0;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 18px;
+}
+.gallery-grid {
+  padding: 0;
+}
+.gallery1 {
+position:relative;
+}
+.gallery1 .textbox {
+width:100%;
+height:100%;
+position:absolute;
+top:0;
+left:0;
+-webkit-transform: scale(0);
+transform: scale(0);
+background-color:rgba(82, 237, 199, 0.5);
+}
+.gallery1:hover .textbox {
+-webkit-transform: scale(1);
+transform: scale(1);
+}
+.gallery-grid img{
+width:100%;
+}
+.swipebox {
+  display: block;
+  text-align: center;
+}
+.textbox {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+.textbox h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color: red;
+  margin-top: 115px;
+}
+.textbox p {
+  font-size: 12px !important;
+  color: red;
+  font-weight:500 !important;
+  margin:6px 0 0 0!important;
+}
+.gallery-grids {
+  margin-top: 50px;
+}
+.button:hover{
+ border: 2px solid #000;
+ border-color: red;
+
+}
+.button {
+  border: 2px solid #fff;
+  padding: 10px;
+  width: 34%;
+  cursor:pointer;
+  text-align:center;
+  margin: 20px auto 0 auto;
+  border-radius:20px; 
+}
+.button a {
+display:block;
+color:red;
+font-family: 'Lato', sans-serif;
+font-size:18px;
+font-weight:700;
+}
+/*--//portfolio--*/
